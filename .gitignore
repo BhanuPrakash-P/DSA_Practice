@@ -1,0 +1,17 @@
+#vscode
+.vscode
+
+#build directory
+build
+
+#executables
+*.out
+
+#libraries
+*.so
+*.a
+*.lib
+
+#object files
+*.o
+*.obj
