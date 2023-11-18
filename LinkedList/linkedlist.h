@@ -19,5 +19,9 @@ PLIST linkedlist_create();
 PNODE node_create(void *data);
 PNODE linkedlist_addatbegin(PLIST list, void* data);
 PNODE linkedlist_addatend(PLIST list, void* data);
+PNODE linkedlist_addatpos(PLIST list, void* data, int pos);
+void linkedlist_deleteatbegin(PLIST list);
+void linkedlist_deleteatend(PLIST list);
+void linkedlist_deleteatpos(PLIST list, int pos);
 
 #endif // _LINKEDLIST_
